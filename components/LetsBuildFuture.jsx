@@ -6,7 +6,7 @@ const LetsBuildFuture = () => {
     <div className="row mt-5 mb-5 d-sm-flex">
       <div className="col-md-6 pe-2 textCenter mb-1">
         <h2 style={{ maxWidth: 460,fontSize:"3rem" }}>
-          Let's build the future of design, now.
+          {"Let's build the future of design, now."}
         </h2>
         <p style={{ maxWidth: 340 }}>
           Create amazing tools and integrations fr 1 million users or customise

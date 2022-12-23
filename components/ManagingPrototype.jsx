@@ -16,8 +16,7 @@ const ManagingPrototype = () => {
           A Slack-bot for creating and managing prototypes
         </h2>
         <p>
-          Building something special? We're always looking to work with partners
-          who wants to help the world bring their ideas to life
+         {" Building something special? We're always looking to work with partners who wants to help the world bring their ideas to life"}
         </p>
         <div className="row flex-nowrap buttonGroup">
           <button type="button" className="btn btn-light">

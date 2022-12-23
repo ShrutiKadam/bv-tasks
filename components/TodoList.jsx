@@ -35,7 +35,7 @@ const TodoList = () => {
       <div className="card-body">
         <ul class="list-group mb-2">
           {todos?.map((value, index) => (
-            <li class="list-group-item d-flex align-items-center justify-content-between border-0 mb-2 rounded">
+            <li key={index} class="list-group-item d-flex align-items-center justify-content-between border-0 mb-2 rounded">
               <input
                 class="form-check-input me-2"
                 type="checkbox"
