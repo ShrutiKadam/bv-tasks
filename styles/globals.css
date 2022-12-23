@@ -1,0 +1,75 @@
+html,
+body {
+  padding: 0;
+  /* margin: 3rem; */
+  margin-top: 0 !important;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #0c1014;
+  color: white;
+}
+.btn:not([class*="btn-circle"]) {
+  border-radius: 25px;
+  padding: 12px;
+  width: 12rem;
+  font-weight: bold;
+}
+.navBtn {
+  border-radius: 25px;
+  padding: 9px;
+  width: 8rem;
+  font-weight: bold;
+}
+.img-full {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.col-6 {
+  padding: 10px;
+}
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .textCenter {
+    display: grid;
+    place-content: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  img {
+    align-items: center;
+  }
+  .overview {
+    display: none;
+  }
+  .fullWidthImage {
+    width: 100%;
+  }
+  .hideOnSm {
+    visibility: 0;
+    display: none !important;
+  }
+  .buttonGroup {
+    padding: 0px 10px;
+  }
+  .halfWidthOnSm {
+    max-width: 50%;
+    margin-top: 20px;
+  }
+}
