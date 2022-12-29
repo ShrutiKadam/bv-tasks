@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="row" style={{ marginTop: "150px" }}>
+    <div className="row" style={{ marginTop: "150px", marginBottom:"3rem" }}>
       <div className="col-md-2">
         <img src="/assets/logo-white.svg" alt="" height={80} width={80} />
       </div>

@@ -27,9 +27,10 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         {/* Sections of the page devided -- can be optimized with next layout feature */}
-        <Navbar />
+       
       </header>
       <main className="container position-relative">
+      <Navbar />
         <LetsBuildFuture />
         <ExperienceFreedom />
         <ShowCaseYourApp />
