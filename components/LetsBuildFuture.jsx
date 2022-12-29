@@ -10,11 +10,15 @@ const LetsBuildFuture = () => {
           {"Let's build the future of design, now."}
         </h2>
         <h2 className="hideOnWeb"  style={{ fontSize:"2rem" }}>
-          {"Let's build the future of design, together."}
+          {"Let's build the future of design, together"}
         </h2>
-        <p style={{ maxWidth: 412 }}>
+        <p className="hideOnSm"  style={{ maxWidth: 412 }}>
           Create amazing tools and integrations for 1 million users or customise
           Marvel for your team.
+        </p>
+        <p  className="hideOnWeb"  style={{ maxWidth: 412 }}>
+          Create amazing tools and integrations for 2 million users or customise
+          Marvel for your own team.
         </p>
         <div className="row flex-nowrap buttonGroup hideOnSm">
           <button type="button" className="btn text-white" style={{backgroundColor:"#1FB6FF"}}>
@@ -33,7 +37,7 @@ const LetsBuildFuture = () => {
           </button>
         </div>
       </div>
-      <div className="col-md-6 mt-3 ps-2 imgMargin">
+      <div className="col-md-6 mt-5 ps-2">
         <img src="/assets/illustration.png" alt="" className="fullWidthImage" />
       </div>
     </div>

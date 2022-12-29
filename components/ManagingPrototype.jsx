@@ -5,7 +5,7 @@ const ManagingPrototype = () => {
     <div className="row topMargin">
       <div className="col-md-6">
         <img
-          className="me-2 imgMargin"
+          className="me-2"
           src="./assets/botbot.png"
           alt=""
           style={{ width: "90%" }}
@@ -15,7 +15,7 @@ const ManagingPrototype = () => {
         <h2 className="hideOnSm mt-0" style={{ maxWidth: "475px;" }}>
           A Slack-bot for creating and managing prototypes
         </h2>
-        <h2 className="hideOnWeb showOnSm mb-3">BotBot - Slack Bot for creating nd managing prototypes</h2>
+        <h2 className="hideOnWeb showOnSm mt-5 mb-3">BotBot - Slack Bot for creating and managing prototypes</h2>
         <p className="hideOnSm" style={{maxWidth: "475px"}}>
          {" Building something special? We're always looking to work with partners who wants to help the world bring their ideas to life"}
         </p>

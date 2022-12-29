@@ -5,7 +5,7 @@ const ShowCaseYourApp = () => {
     <div className="container showCaseApp">
     <div className="row topMargin">
     <div className="col-6 hideOnWeb">
-        <img src="/assets/showcase.png" alt="" className="fullWidthImage" style={{width:"200%"}}/>
+        <img src="/assets/showcase.png" alt="" className="fullWidthImage mb-5" style={{width:"200%"}}/>
       </div>
       <div className="col-md-6">
         <h2>Showcase your app in our integrations directory</h2>
