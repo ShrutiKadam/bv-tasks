@@ -155,7 +155,7 @@ const Footer = () => {
         </ul>
       </div>
 
-      <div className="col-md-2 hideOnWeb col-xs-6 halfWidthOnSm">
+      <div className="col-md-2 d-md-none col-xs-6 halfWidthOnSm">
         <h5>Features</h5>
         <ul className="list-unstyled">
           <li className="my-2 text-muted">
