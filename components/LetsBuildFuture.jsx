@@ -38,7 +38,7 @@ const LetsBuildFuture = () => {
         </div>
       </div>
       <div className="col-md-6 mt-5 ps-2">
-        <img src="/assets/illustration.png" alt="" className="fullWidthImage" />
+        <img src="/assets/illustration.png" alt="" className="fullWidthImage" style={{ maxWidth: 600 }} />
       </div>
     </div>
     </div>
